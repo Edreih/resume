@@ -29,7 +29,7 @@ def read_yaml(filename):
     Read Yaml file given by ``filename`` and return dictionary data.
     """
     with open(filename, 'rt') as f:
-        return yaml.load(f)
+        return yaml.safe_load(f)
 
 
 def render_template(tpl, vars):

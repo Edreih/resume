@@ -1,0 +1,187 @@
+
+# My resume
+
+profile:
+    name: Edreih Aldana
+    label: DevOps engineer
+    email: aldana.edreih@gmail.com
+    #phone: +1 (936) 239-7218
+    #birth: 02/24/1994
+    address: Houston, Texas
+    summary: I am a skilled DevOps Engineer with strong scripting skills, web development experience, and a deep understanding of designing and building software. Experienced with configuration management, deployment strategies, and troubleshooting distributed systems. I love a good challenge, and strive daily in improving and evolving for the better.
+    image: "https://media.licdn.com/dms/image/C4D03AQGaMcLp0oAXnQ/profile-displayphoto-shrink_800_800/0/1626984068175?e=1698883200&v=beta&t=YnZl3fK-_Bax6PiQyN7h30N3UzwlRpo4bYoaB0kOq8U"
+    website: http://www.ealdana.com
+
+    networks:
+        # -   provider: twitter
+        #     username: hanula
+        #     url: https://twitter.com/hanula
+
+        -   provider: github
+            username: edreih
+            url: https://github.com/edreih
+
+        -   provider: linkedin
+            username: ealdana
+            url: https://www.linkedin.com/in/ealdana
+
+        # -   provider: google+
+        #     username: SebastianHanula
+        #     url: https://plus.google.com/+SebastianHanula
+
+skills:
+    -   area: Programming and scripting
+        skills:
+            - PowerShell
+            - Bash
+            - Python
+            - Javascript
+            - Java
+
+    -   area: CI/CD and Deployment Tools
+        skills:
+            - Azure DevOps
+            - Amazon Web Services (AWS)
+            - Kubernetes
+            - Docker
+            - Ansible
+            - Git
+
+    -   area: Databases
+        skills:
+            - Elasticsearch (ELK Stack)
+            - Redis
+            - Microsoft SQL Server
+            - MySQL
+            - PostgreSQL
+
+    -   area: Operating Systems
+        skills:
+            - Linux, specifically RHEL and Debian
+            - Windows Server
+
+    -   area: Logging and Monitoring Tools
+        skills:
+            - Grafana + Prometheus
+            - Kibana
+            - Splunk
+            - Istio
+            - SolarWinds Orion
+            - ServicePulse
+            - SonarQube
+
+    -   area: Languages
+        skills:
+            - English, Fluent
+            - Spanish, Fluent
+
+work:
+    -   company: Enterprise Products
+        role: DevOps Engineer
+        website: https://enterpriseproducts.com
+        date: January 2020 - Present
+        #summary: Knowledge management, discovery and collaboration service. Startup project.
+        highlights:
+            - Develop fully automated CI/CD pipelines for build, test, and release processes using Azure DevOps
+            - Architect automation processes that enable application deployments, configuration, scaling, and monitoring
+            - Leverage Kubernetes to orchestrate the deployment, scaling, and management of Docker containers 
+            - Participate in on-call rotation and act as the point of contact for onshore and offshore teams to troubleshoot and resolve critical tasks in production environments 
+            - Author detailed documentation as it pertains to release processes, CI/CD pipelines and internally developed tooling 
+            - Implement open source logging and monitoring tools to support developer and QA teams. The tool allows for quick identification of bugs, mapping to ADO work items, alerting and notifications of future occurrences, and tracking regressions
+            - Develop scripts to deploy and configure Elasticsearch infrastructure at scale using Bash and PowerShell scripting
+            - Establish merging and pull request policies to support QA team sign off before merging to release branches 
+            - Assist QA to ensure quality releases of various internally developed applications. Implement tooling to perform back-end, API, performance, regression, unit and integration testing 
+            - Develop CI/CD pipelines to support test automation suites using Selenium web driver to execute automated testing of applications.
+
+
+    -   company: The Fuentes Firm, P.C.
+        role: IT Specialist
+        date: November 2018 - December 2019
+        website: https://www.thefuentesfirm.com
+        highlights:
+            - Managed technical support operations, troubleshoot issues and perform root cause analysis
+            - Served an instrumental role in company wide migration from legacy case management system (CMS) to new SharePoint system by setting up, migrating data, providing end-user training and documentation
+            - Automated legal document generation to streamline procedures and decrease Paralegal labor time. The system was designed to reduce human error and improve efficiency
+            - Managed and maintained Windows Server 2016 for Active Directory services and ensured high availability of critical data stored in network shares
+            - Developed client portal web application using AWS EC2 and custom WordPress site to provide clients with centralized access to their legal documents, contracts, and more
+            - Initiated IT policies designed to harden system security, including enhanced measures for password requirements and user access to company resources
+
+
+    -   company: Varian (formerly Mobius Medical Systems, LP)
+        role: System Support Specialist
+        date: February 2017 - October 2018
+        website: https://www.varian.com
+        highlights:
+            - Analyze, troubleshoot, and repair Linux servers used as medical appliances in Radiation Oncology departments worldwide
+            - Analyzed logs and stack traces to identify root cause, resolve issues, and document in knowledge base
+            - Corresponded with hospital IT departments to evaluate, setup product, and provide remote support through online ticketing system
+            - Assisted employees with set up of laptops, upgrades, and IT related issues
+            - Performed thorough validation testing and write essential documentation for new hardware components and software versions
+            - Design, implement, and administrate internal network, network shares, and systems
+
+
+    -   company: Aldana Designs
+        role: Freelance Web Developer
+        website: http://www.ealdana.com
+        summary: Entrepreneurship
+        date: May 2014 - December 2019
+        highlights:
+            - Developed modern responsive websites using HTML5, CSS, JavaScript, PHP, and MySQL technologies
+            - Implemented project portal for clients to log in, check project status, and manage invoices
+            - Managed and configured custom WordPress and CMS installations
+            - Optimized client websites for top search engine rankings (SEO)
+            - Designed logo, branding, and prototypes using Adobe Photoshop, Adobe Illustrator, and wireframe tools
+            - Managed and prioritize multiple projects with strict deadlines
+
+
+projects:
+    -   name: Catnip Inn 
+        role: Java Developer
+        website: 
+        date: November 2018
+        summary: Custom Java Application for managing a pet boarding and grooming business 
+        highlights:
+            - "[Demo of JavaFX UI](https://www.youtube.com/watch?v=-P2jZu-ONpE&t=20s&ab_channel=EdreihAldana)"
+            - > 
+               Technologies used: Java, JavaFX, Maven, Microsoft SQL Server
+
+    -   name: Homeless Houston Resources for LGBT Youth
+        role: Web Developer
+        website: https://github.com/Edreih/homeless-houston-resources
+        date: May 2016
+        summary: Resources for Homeless and LGBT Youth in the Houston Area.
+        highlights:
+            - This project was created at Houston Hackathon 2016
+            - >
+               Technologies used: HTML, CSS, JavaScript, Google Maps API
+
+
+    -   name: More Projects...
+        role: GitHub Profile
+        website: https://github.com/edreih
+        date: Present
+        summary: Various projects hosted on GitHub
+        highlights:
+            - Contributor to open source projects such as Elastic.Console
+
+education:
+    -   location: University of Houston - Houston, Texas
+        date: Graduated Fall 2019
+        summary: Bachelor of Science in Computer Information Systems
+    
+    -   location: San Jacinto College - Houston, Texas
+        date: Graduated May 2015
+        summary: Associate of Science in Computer Science
+
+
+interests:
+    - Tinkering / Making things, especially with single-board computers such as Arduino and Raspberry Pi
+    - Nature
+    - Console Modding
+    - Web Development
+    - Woodworking
+
+config:
+    theme: simple-new
+    github_source: https://github.com/edreih
+    pdf_file: Edreih_Aldana_Resume.pdf

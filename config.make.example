@@ -2,8 +2,14 @@
 # Your resume file
 RESUME ?= resumes/example.yaml
 
+# Your custom PDF file
+PDF_FILE ?= Firstname_Lastname_Resume.pdf
+
 # Your rsync upload path
 RSYNC_LOCATION ?= example.com:/var/www/resume/
+
+# Your S3 Bucket
+S3_BUCKET ?= s3BucketName
 
 # Here you can also override other variables from Makefile, like BUILD_DIR
 # BUILD_DIR ?= /tmp/my_resume_build

@@ -3,12 +3,12 @@
 
 profile:
     name: Edreih Aldana
-    label: DevOps engineer
+    label: Senior DevOps engineer
     email: aldana.edreih@gmail.com
     #phone: +1 (936) 239-7218
     #birth: 02/24/1994
     address: Houston, Texas
-    summary: I am a skilled DevOps Engineer with strong scripting skills, web development experience, and a deep understanding of designing and building software. Experienced with configuration management, deployment strategies, and troubleshooting distributed systems. I love a good challenge, and strive daily in improving and evolving for the better.
+    summary: I am a skilled DevOps Engineer with expertise in scripting, automation, and software architecture. I have a proven ability to optimize development lifecycles, implement efficient deployment strategies, and troubleshoot complex distributed systems. I am passionate about tackling challenges and continuously improving DevOps practices to drive organizational success. I am committed to delivering scalable, reliable solutions that enhance productivity and keep pace with evolving technology landscapes.
     image: "https://media.licdn.com/dms/image/C4D03AQGaMcLp0oAXnQ/profile-displayphoto-shrink_800_800/0/1626984068175?e=1698883200&v=beta&t=YnZl3fK-_Bax6PiQyN7h30N3UzwlRpo4bYoaB0kOq8U"
     website: http://www.ealdana.com
 
@@ -30,108 +30,100 @@ profile:
         #     url: https://plus.google.com/+SebastianHanula
 
 skills:
-    -   area: Programming and scripting
+    -   area: Scripting
         skills:
             - PowerShell
             - Bash
             - Python
-            - Javascript
-            - Java
 
     -   area: CI/CD and Deployment Tools
         skills:
             - Azure DevOps
             - Amazon Web Services (AWS)
+            - Jenkins
+
+    -   area: Containerization Tools
+        skills:
             - Kubernetes
+            - Helm
+            - Rancher
             - Docker
-            - Ansible
-            - Git
 
     -   area: Databases
         skills:
-            - Elasticsearch (ELK Stack)
+            - Elasticsearch
             - Redis
             - Microsoft SQL Server
             - MySQL
             - PostgreSQL
 
-    -   area: Operating Systems
+    -   area: Infrastructure
         skills:
-            - Linux, specifically RHEL and Debian
+            - Linux
             - Windows Server
+            - Ansible
 
-    -   area: Logging and Monitoring Tools
+    -   area: Monitoring and Observability
         skills:
             - Grafana + Prometheus
-            - Kibana
+            - ELK stack
+            - Dynatrace
             - Splunk
-            - Istio
             - SolarWinds Orion
             - ServicePulse
-            - SonarQube
 
-    -   area: Languages
-        skills:
-            - English, Fluent
-            - Spanish, Fluent
+    # -   area: Core Competencies
+    #     skills:
+    #         - Infrastructure as Code
+    #         - CI/CD pipelines
+    #         - Automation
+    #         - Agile methodologies
+    #         - High availability & Disaster recovery strategies
+    #         - Networking
 
 work:
     -   company: Enterprise Products
-        role: DevOps Engineer
+        role: Senior DevOps Engineer
         website: https://enterpriseproducts.com
         date: January 2020 - Present
         #summary: Knowledge management, discovery and collaboration service. Startup project.
         highlights:
-            - Develop fully automated CI/CD pipelines for build, test, and release processes using Azure DevOps
-            - Architect automation processes that enable application deployments, configuration, scaling, and monitoring
-            - Leverage Kubernetes to orchestrate the deployment, scaling, and management of Docker containers 
-            - Participate in on-call rotation and act as the point of contact for onshore and offshore teams to troubleshoot and resolve critical tasks in production environments 
-            - Author detailed documentation as it pertains to release processes, CI/CD pipelines and internally developed tooling 
-            - Implement open source logging and monitoring tools to support developer and QA teams. The tool allows for quick identification of bugs, mapping to ADO work items, alerting and notifications of future occurrences, and tracking regressions
-            - Develop scripts to deploy and configure Elasticsearch infrastructure at scale using Bash and PowerShell scripting
-            - Establish merging and pull request policies to support QA team sign off before merging to release branches 
-            - Assist QA to ensure quality releases of various internally developed applications. Implement tooling to perform back-end, API, performance, regression, unit and integration testing 
-            - Develop CI/CD pipelines to support test automation suites using Selenium web driver to execute automated testing of applications.
-
+            - Create CI/CD pipelines for automating the building and releasing of software to Dev, Test, and Production environments
+            - Develop automation processes using helm charts in Kubernetes to enable teams to deploy, manage, configure, scale, and monitor their applications
+            - Spearheaded the deployment of open-source logging and monitoring tools, enhancing system observability and reducing mean time to resolution (MTTR) for critical issues
+            - Author technical documentation regarding release processes, CI/CD pipelines, DevOps best practices, and internally developed tooling
+            - Implement tooling to perform back-end, API, performance, scalability and reliability testing
 
     -   company: The Fuentes Firm, P.C.
-        role: IT Specialist
+        role: Systems Analyst
         date: November 2018 - December 2019
         website: https://www.thefuentesfirm.com
         highlights:
-            - Managed technical support operations, troubleshoot issues and perform root cause analysis
-            - Served an instrumental role in company wide migration from legacy case management system (CMS) to new SharePoint system by setting up, migrating data, providing end-user training and documentation
-            - Automated legal document generation to streamline procedures and decrease Paralegal labor time. The system was designed to reduce human error and improve efficiency
-            - Managed and maintained Windows Server 2016 for Active Directory services and ensured high availability of critical data stored in network shares
-            - Developed client portal web application using AWS EC2 and custom WordPress site to provide clients with centralized access to their legal documents, contracts, and more
-            - Initiated IT policies designed to harden system security, including enhanced measures for password requirements and user access to company resources
+            - Led company-wide migration to cloud-based case management system, enhancing collaboration and accessibility
+            - Automated legal document generation with Docassemble to streamline procedures
+            - Deployed client portal on AWS EC2 with custom WordPress site, providing centralized access to legal documents
+            - Performed root cause analysis and resolved critical operational issues, ensuring minimal downtime
+            - Implemented robust system security measures and managed AD groups to control access to company assets
 
-
-    -   company: Varian (formerly Mobius Medical Systems, LP)
-        role: System Support Specialist
+    -   company: Varian
+        role: Systems Support Specialist
         date: February 2017 - October 2018
         website: https://www.varian.com
         highlights:
             - Analyze, troubleshoot, and repair Linux servers used as medical appliances in Radiation Oncology departments worldwide
-            - Analyzed logs and stack traces to identify root cause, resolve issues, and document in knowledge base
-            - Corresponded with hospital IT departments to evaluate, setup product, and provide remote support through online ticketing system
-            - Assisted employees with set up of laptops, upgrades, and IT related issues
-            - Performed thorough validation testing and write essential documentation for new hardware components and software versions
-            - Design, implement, and administrate internal network, network shares, and systems
+            - Analyze logs and stack traces to identify root cause, resolve issues, and document in knowledge base
+            - Resolved Jenkins artifact deployment issues, gaining hands-on experience with CI/CD workflows and version control systems while deploying to Linux environments
+            - Executed comprehensive validation testing and documentation for software releases, ensuring compliance with FDA regulations
 
-
-    -   company: Aldana Designs
-        role: Freelance Web Developer
+    -   company: Freelance Web Developer
+        role: Entrepreneurship
         website: http://www.ealdana.com
-        summary: Entrepreneurship
+        #summary: Entrepreneurship
         date: May 2014 - December 2019
         highlights:
-            - Developed modern responsive websites using HTML5, CSS, JavaScript, PHP, and MySQL technologies
-            - Implemented project portal for clients to log in, check project status, and manage invoices
-            - Managed and configured custom WordPress and CMS installations
-            - Optimized client websites for top search engine rankings (SEO)
-            - Designed logo, branding, and prototypes using Adobe Photoshop, Adobe Illustrator, and wireframe tools
-            - Managed and prioritize multiple projects with strict deadlines
+            - Translated client requirements into responsive websites, enhancing user experience and meeting business objectives
+            - Implemented self-hosted project portal, demonstrating server management and web application deployment skills
+            - Configured custom WordPress and CMS installations, showcasing expertise in server setup and database management
 
 
 projects:
@@ -168,10 +160,6 @@ education:
     -   location: University of Houston - Houston, Texas
         date: Graduated Fall 2019
         summary: Bachelor of Science in Computer Information Systems
-    
-    -   location: San Jacinto College - Houston, Texas
-        date: Graduated May 2015
-        summary: Associate of Science in Computer Science
 
 
 interests:

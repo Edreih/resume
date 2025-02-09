@@ -2,8 +2,11 @@
 # Your resume file
 RESUME ?= resumes/example.yaml
 
-# Your custom PDF file
+# Your custom PDF file.
 PDF_FILE ?= Firstname_Lastname_Resume.pdf
+
+# Location of your custom PDF file
+PDF_FILE_LOCATION ?= /
 
 # Your rsync upload path
 RSYNC_LOCATION ?= example.com:/var/www/resume/

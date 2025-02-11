@@ -17,6 +17,7 @@ BUILD ?= $(PYTHON) build.py $(BUILD_ARGS)
 
 # Build configurations
 all: clean html pdf
+build: clean html
 publish: clean html pdf publish
 custom: clean html copypdf publishs3
 

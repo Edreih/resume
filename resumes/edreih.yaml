@@ -1,22 +1,16 @@
 
 # My resume
-
 profile:
     name: Edreih Aldana
     label: Senior DevOps engineer
     email: aldana.edreih@gmail.com
-    #phone: +1 (936) 239-7218
-    #birth: 02/24/1994
+    imgage: https://media.licdn.com/dms/image/v2/C4D03AQGaMcLp0oAXnQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1626984068538?e=1744848000&v=beta&t=cPLjwhasQHHNrs10L0n_h4f7ekXclDK0IyM7Xq71lGA
     address: Houston, Texas
     summary: I am a skilled DevOps Engineer with expertise in scripting, automation, and software architecture. I have a proven ability to optimize development lifecycles, implement efficient deployment strategies, and troubleshoot complex distributed systems. I am passionate about tackling challenges and continuously improving DevOps practices to drive organizational success. I am committed to delivering scalable, reliable solutions that enhance productivity and keep pace with evolving technology landscapes.
-    image: "https://media.licdn.com/dms/image/C4D03AQGaMcLp0oAXnQ/profile-displayphoto-shrink_800_800/0/1626984068175?e=1698883200&v=beta&t=YnZl3fK-_Bax6PiQyN7h30N3UzwlRpo4bYoaB0kOq8U"
+    image: profile.jpg
     website: http://www.ealdana.com
 
     networks:
-        # -   provider: twitter
-        #     username: hanula
-        #     url: https://twitter.com/hanula
-
         -   provider: github
             username: edreih
             url: https://github.com/edreih
@@ -24,10 +18,6 @@ profile:
         -   provider: linkedin
             username: ealdana
             url: https://www.linkedin.com/in/ealdana
-
-        # -   provider: google+
-        #     username: SebastianHanula
-        #     url: https://plus.google.com/+SebastianHanula
 
 skills:
     -   area: Scripting
@@ -166,10 +156,10 @@ interests:
     - Tinkering / Making things, especially with single-board computers such as Arduino and Raspberry Pi
     - Nature
     - Console Modding
-    - Web Development
+    - Restoring my classic truck (1990 Ford F-150) 🛻 
     - Woodworking
 
 config:
-    theme: simple-new
+    theme: simple-alt
     github_source: https://github.com/edreih
     pdf_file: Edreih_Aldana_Resume.pdf

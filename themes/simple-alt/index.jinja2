@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X29Y8QHW1M"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-X29Y8QHW1M');
+  </script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -46,7 +55,7 @@
     }
 
     .contacts dt {
-      width: 60px;
+      width: 80px;
       text-align: left
     }
 
@@ -69,8 +78,8 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
+  <div class="container ">
+    <div class="row ">
       <div class="col-md-8 col-md-offset-2">
         <header class="main row">
           <div class="header">
@@ -89,20 +98,20 @@
             <div class="col-md-6 col-sm-12">
               <dl class="contacts dl-horizontal">
 
-                <dt>Address:</dt>
+                <dt>🌎 Location:</dt>
                 <dd>{{ profile.address }}</dd>
 
-                <!--<dt>Phone:</dt>
+                <!--<dt>📲 Phone:</dt>
                 <dd>{{ profile.phone }}</dd>-->
 
-                <dt>Email:</dt>
+                <dt>✉️ Email:</dt>
                 <dd>
                   <a href="mailto:{{ profile.email }}">
                         {{ profile.email }}
                     </a>
                 </dd>
 
-                <dt>Website:</dt>
+                <dt>🌐 Website:</dt>
                 <dd>
                   <a href="{{ profile.website }}">
                       {{ profile.website }}
